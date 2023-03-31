@@ -19,5 +19,5 @@ const getOneQuote = (req, res) => {
 
 module.exports = {
   getAllQuotes,
-  getOneQuote,
+  getOneQuote
 };

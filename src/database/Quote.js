@@ -4,13 +4,8 @@ const getAllMovieQuotes = () => {
   return DB.movieQuotes;
 };
 
-const getMovieQuotes = (quoteId) => {
+const getOneMovieQuote = (quoteId) => {
   return DB.movieQuotes.find(quote => quote.id === Number(quoteId));
 };
 
-// TODO: make endpoint to grab random movie quote
-const getRandomMovieQuote = () => {
-  return DB.movieQuotes.find(quote => quote.id === Number(quoteId));
-};
-
-module.exports = { getAllMovieQuotes, getMovieQuotes };
+module.exports = { getAllMovieQuotes, getOneMovieQuote };

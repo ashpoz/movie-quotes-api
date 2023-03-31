@@ -6,7 +6,7 @@ const getAllQuotes = () => {
 };
 
 const getOneQuote = (movieId) => {
-  const quote = Quote.getMovieQuotes(movieId);
+  const quote = Quote.getOneMovieQuote(movieId);
   return quote;
 };
 
