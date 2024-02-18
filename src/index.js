@@ -2,7 +2,7 @@ const express = require("express");
 const v1WorkoutRouter = require("./v1/routes/quotesRouter.js");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 app.use("/api/v1/quotes", v1WorkoutRouter);
 
